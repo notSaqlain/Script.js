@@ -7,6 +7,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : khalid.saq.2005
 */
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 50px;
+    padding: 0;
+}
+
 .c1 {
     cursor: pointer;
 }
