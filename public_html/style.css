@@ -21,3 +21,13 @@ body {
 .c2 {
     cursor: pointer;
 }
+
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    text-align: center;
+    line-height: 150px;
+    font-family: Arial, sans-serif;
+}
