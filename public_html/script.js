@@ -37,12 +37,6 @@ document.querySelectorAll('span.c2').forEach(span => {
 });
 
 
-document.querySelectorAll('div.c1.c2').forEach(div => {
-    div.addEventListener('click', () => {
-        alert('Hai cliccato su un div con entrambe le classi c1 e c2');
-    });
-});
-
 const lightColors = [
     '#FFB6C1', // Light Pink
     '#FFDAB9', // Peach Puff
