@@ -42,3 +42,21 @@ document.querySelectorAll('div.c1.c2').forEach(div => {
         alert('Hai cliccato su un div con entrambe le classi c1 e c2');
     });
 });
+
+const lightColors = [
+    '#FFB6C1', // Light Pink
+    '#FFDAB9', // Peach Puff
+    '#E6E6FA', // Lavender
+    '#D3FFCE', // Light Green
+    '#ADD8E6', // Light Blue
+    '#FFFACD', // Lemon Chiffon
+    '#F0E68C', // Khaki
+    '#FFDEAD', // Navajo White
+    '#E0FFFF', // Light Cyan
+    '#FFC0CB'  // Pink
+];
+
+const elements = document.querySelectorAll('.colored');
+elements.forEach((el, index) => {
+    el.style.backgroundColor = lightColors[index % lightColors.length];
+});
